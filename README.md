@@ -1,10 +1,49 @@
-# React + Vite
+# 🏠 Hostel Room Allocation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based system for managing hostel room allocation efficiently. It allows administrators to manage rooms, students, and allocations, while students can view and select available rooms.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# end_sem_3_project
-vghcgfc
+## 🚀 Features
+
+### 👨‍💼 Admin Panel
+- Add, update, or delete student records
+- Manage hostel blocks, rooms, and capacities
+- Allocate or reallocate rooms to students
+- View room occupancy status
+- Generate reports
+
+### 👨‍🎓 Student Panel
+- Register and log in securely
+- View available rooms and their details
+- Request or select preferred rooms
+- Check current room allocation status
+- Update personal details
+
+### 🧱 System Features
+- Role-based authentication (Admin/Student)
+- Responsive and user-friendly interface
+- Validation for room availability
+- Database integration for persistent data
+- Secure login using hashed passwords
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | HTML, CSS, JavaScript, React |
+| Backend | Node.js / Express.js |
+| Database | MySQL / MongoDB |
+| Authentication | JWT / Session-based |
+| Hosting | Render / Vercel / Localhost / cPanel |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/hostel-room-allocation.git
+cd hostel-room-allocation
